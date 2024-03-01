@@ -13,7 +13,7 @@ const Card = ({id,name,image,price,info,removeTour}) => {
             <div className='tour-details'>
                 <h3 className='tour-price font-bold text-green-600'>{price}</h3>
                 <h3 className='tour-name font-bold text-2xl mb-2'>{name}</h3>
-            </div>
+            </div> 
             <div className="description">
                 {readMore ? info:description }
                 <span className='read-more text-bold text-blue-500 hover:cursor-pointer' onClick={()=>{
